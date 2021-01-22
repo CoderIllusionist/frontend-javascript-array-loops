@@ -8,10 +8,10 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Wanneer je de volledige array logt zie je alle nieuwe waardes
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 console.log("Opdracht 1: ");
-names.forEach(async function(name) {
-    console.log(name + "je");
-})
-
+for (i=0; i < names.length; i++) {
+    names[i] = names[i] + "je"
+}
+console.log(names)
 
 
 // --------------------------
