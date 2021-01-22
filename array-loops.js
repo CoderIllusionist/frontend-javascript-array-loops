@@ -21,7 +21,7 @@ console.log(names);
 const numbers = [2, 4, 5, 29, 38];
 
 // Verander de waardes van de array dusdanig dat iedere waarde met 3 vermenigvuldigd wordt
-// Wanneer je de volledige array logt zie je alle nieuwe waardes
+// Wanneer je de volledige array logt zie je alle nieuwe waardes.
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
 
 console.log("Opdracht 2: ");
