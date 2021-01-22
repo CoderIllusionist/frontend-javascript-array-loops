@@ -25,9 +25,10 @@ const numbers = [2, 4, 5, 29, 38];
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
 
 console.log("Opdracht 2: ");
-numbers.forEach(async function(number) {
-    console.log(number * 3);
-})
+for (i=0; i < numbers.length; i++) {
+    numbers[i] = numbers[i] * 3
+}
+console.log(numbers);
 
 
 // --------------------------
@@ -40,7 +41,7 @@ const figures = [4, 6, 12, 34, 1];
 // Wanneer je de volledige array logt zie je alle nieuwe waardes
 // console.log(figures) geeft: [ 7, 9, 15, 37, 4 ]
 
-figures.forEach(async function(figure) {
-    console.log(figure + 3);
-})
-
+for (i=0; i < figures.length; i++) {
+    figures[i] = figures[i] + 3
+}
+console.log(figures);
